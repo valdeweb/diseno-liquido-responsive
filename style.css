@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url(img/papelverjurado.jpg);
+    font-family: 'Raleway', sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+h1, h2{
+    color: darkred;
+    font-family: 'Baloo Bhaijaan';
+    padding: .5em;
+    
+}
+#datos{
+    width: 25%;
+}
+#contenido{
+    width: 75%;
+}
+#datos, #contenido{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.trespartes{
+    padding: 1em;
+    list-style: none;
+}
+.trespartes li{
+    float: left;
+    width: 33%;
+}
+@media (max-width: 470px){
+    body{
+        width: 90%;
+    }
+    
+}
+    @media print{
+        body{
+            color: darkgrey;  
+        }
+    }
+}
