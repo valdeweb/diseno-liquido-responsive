@@ -47,6 +47,7 @@ h1, h2{
     }
     .trespartes li{
         display: block;
+        width: 100%;
     }
     
 }
